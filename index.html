@@ -316,7 +316,7 @@
 
               <div>
                 <h1 class="skills__title">Backend Developer</h1>
-                <span class="skills__subtitle">1 year</span>
+                <span class="skills__subtitle">In Progress</span>
               </div>
               <i class="uil uil-angle-down skills__arrow"></i>
             </div>
@@ -924,11 +924,11 @@
             <div class="contact__inputs grid">
               <div class="contact__content">
                 <label for="" class="contact__label">Name</label>
-                <input type="text" class="contact__input" />
+                <input type="text" class="contact__input" required />
               </div>
               <div class="contact__content">
                 <label for="" class="contact__label">Email</label>
-                <input type="email" class="contact__input" />
+                <input type="email" class="contact__input" required />
               </div>
             </div>
             <div class="contact__content">
@@ -939,10 +939,11 @@
                 cols="0"
                 rows="7"
                 class="contact__input"
+                required
               ></textarea>
             </div>
 
-            <div>
+            <div id="submitme__btn">
               <a href="#contact" class="button button--flex">
                 Send Message
                 <i class="uil uil-message"></i
